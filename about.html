@@ -1,0 +1,28 @@
+<head>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <div class="navbar">    
+    <div class="nav-buttons">
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+    </div>
+    
+    <div class="nav-item hamburger">☰</div>
+  </div>
+  <div class="content">
+    <h1>About Me</h1>
+
+    <img src="headshot.jpg" width="200" alt="Headshot of Antony Vincent" class="headshot"> <div class="caption">Headshot of Antony Vincent, <span class="credit">Credit: Kunduz Keldibekova</span></div>
+
+    <p>I am Antony Vincent, a journalism senior at Northwestern University with a minor in Business Institutions, and a certificate of Management in Creative Industries.</p>
+      
+    <p>Raised in Doha, Qatar, I developed early training in accounting and business, which continues to shape how I approach reporting. At Northwestern's Medill School, I have built a hybrid skill set combining journalism, financial literacy, and market analysis.</p>
+    
+    <p>My work focuses on companies, markets, and business models, explaining how financial decisions shape industries and real-world outcomes. I approach journalism with an entrepreneurial and analytical mindset, translating complex business and market dynamics into clear, actionable stories that inform decision-making. Currently, I am working on projects that explore the usage of AI in the media industry to enhance workflow efficiency.</p>
+  <script>
+    document.querySelector('.hamburger').onclick = () => {
+      document.querySelector('.nav-buttons').classList.toggle('active');
+    };
+  </script>
+</body>
