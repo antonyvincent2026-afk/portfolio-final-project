@@ -119,14 +119,15 @@ img.fm{
   .nav-buttons {
     display: none;
   }
+
+  .hamburger {
+    display: block;
+  }
   .content video,
   .responsive-video {
     width: min(94vw, 640px);
   }
-}
-  .hamburger {
-    display: block;
-  }
+  
   
   .nav-buttons.active {
     display: flex;
@@ -142,3 +143,4 @@ img.fm{
   .content {
     width: 95%;
   }
+}
